@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Education</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="soal1">Adi mempunyai 5 permen, Budi mempunyai 7 permen. Berapa jumlah permen Adi dan Budi.?</string>
+    <string name="soal2">Bayu mempunyai 25 permen, Budi mempunyai 9 permen. Berapa jumlah permen Adi dan Budi.?</string>
+</resources>

@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.developer.education.soal.Soal1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. "
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/soal2"
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"/>
+        </TableRow>
+
+
+
+        <RadioGroup
+            android:id="@+id/rgroup"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/jawabanA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. 13"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/jawabanB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B. 14"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/jawabanC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C. 15"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/jawabanD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D. 16"
+                android:textSize="16dp"/>
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/selsai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selesai"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:background="@color/colorGreen"/>
+    </RelativeLayout>
+
+
+
+</FrameLayout>
